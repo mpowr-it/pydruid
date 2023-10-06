@@ -95,6 +95,7 @@ class DruidDialect(default.DefaultDialect):
     returns_unicode_strings = True
     description_encoding = None
     supports_native_boolean = True
+    supports_statement_cache = True
 
     def __init__(self, context=None, *args, **kwargs):
         super(DruidDialect, self).__init__(*args, **kwargs)
