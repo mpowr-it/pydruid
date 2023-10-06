@@ -4,6 +4,10 @@ pydruid exposes a simple API to create, execute, and analyze [Druid](http://drui
 
 Additionally, pydruid implements the [Python DB API 2.0](https://www.python.org/dev/peps/pep-0249/), a [SQLAlchemy dialect](http://docs.sqlalchemy.org/en/latest/dialects/), and a provides a command line interface to interact with Druid.
 
+## New Apache Druid 27.0.0 Compatibility
+
+This fork provides an Apache Druid 27.0.n compatible version of the well-known pydruid extension for python. In the current development cycle, backward compatibility with older Druid versions cannot be guaranteed; therefore, please use this version of the library with appropriate caution.
+
 To install:
 ```python
 pip install pydruid
