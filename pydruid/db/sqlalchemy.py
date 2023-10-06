@@ -101,7 +101,7 @@ class DruidDialect(default.DefaultDialect):
         self.context = context or {}
 
     @classmethod
-    def dbapi(cls):
+    def import_dbapi(cls):
         return pydruid.db
 
     def create_connect_args(self, url):
